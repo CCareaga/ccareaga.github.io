@@ -1,0 +1,51 @@
+---
+---
+
+@import "no-style-please";
+
+ul {
+    padding-left: 30px;
+    list-style: none;
+}
+
+h1 {
+    margin: 0.4rem 0;
+}
+p {
+    margin: 0.4rem 0;
+}
+
+.aboutme-container {
+    max-width: 100%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+}
+
+.aboutme-text {
+    margin-left: 30px;
+}
+
+.sidebyside-text-ele {
+    padding-right: 20px;
+    display: inline-block;
+}
+
+.research-ele-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 15px;
+}
+
+img {
+    float: left;
+    max-width: 100%;
+    max-height:100%;
+}
+
+.research-post-image {
+    float: left;
+    margin: 30px;
+}

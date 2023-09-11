@@ -1,0 +1,55 @@
+<ul>
+  {%-for item in include.collection-%}
+    {%-if item.title == "about me"-%}
+      <div class="aboutme-container">
+        <div class="main-image">
+            <img src="/assets/computer_chris.png" alt="chris careaga">
+        </div>
+        <div class="aboutme-text">
+          {%-for ele in item.entries-%}
+            {%-if forloop.index == 1-%}
+              <h1>{{ele.title}}</h1>
+            {%-elsif ele.url%}
+              <a class="sidebyside-text-ele" href="{{ ele.url }}">{{ ele.title }}</a>
+            {%-else-%}
+              <p>{{ele.title}}</p>
+            {%-endif-%}
+          {%-endfor-%}
+        </div>
+      </div>
+
+    {%-else-%}
+      <li>
+      {%- if item.url -%}
+        <a href="{{ item.url }}">{{ item.title }}</a>
+      {%- else -%}
+        {{ item.title }}
+      {%- endif -%}
+      </li>
+
+      {%-if (item.post_list) and (item.post_list.category != "research")-%}
+        {%
+          include post_list.html
+            category=item.post_list.category
+            limit=item.post_list.limit
+            show_more=item.post_list.show_more
+            show_more_text=item.post_list.show_more_text
+            show_more_url=item.post_list.show_more_url
+      -%}
+      {%-else-%}
+        {%
+          include research_post_list.html
+            category=item.post_list.category
+            limit=item.post_list.limit
+            show_more=item.post_list.show_more
+            show_more_text=item.post_list.show_more_text
+            show_more_url=item.post_list.show_more_url
+        -%}
+      {%-endif-%}
+
+      {%-if item.entries and (item.title != "about me")-%}
+        {%-include menu_item.html collection=item.entries-%}
+      {%-endif-%}
+    {%-endif-%}
+  {%-endfor-%}
+</ul>

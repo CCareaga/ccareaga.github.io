@@ -1,0 +1,26 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: about me
+    entries:
+      - title: chris careaga
+      - title: PhD student at Simon Fraser University
+      - title: google scholar
+        url: https://scholar.google.ca/citations?user=-98CGCIAAAAJ&hl=es&oi=sra
+      - title: github
+        url: https://github.com/CCareaga
+
+  - title: news
+    post_list:
+      category: news
+      limit: 5
+      show_more: true
+
+  - title: research
+    post_list:
+      category: research
+      limit: 10
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: archive.html
