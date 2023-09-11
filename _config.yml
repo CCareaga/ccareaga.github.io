@@ -21,6 +21,7 @@
 title: chris careaga
 author: chris careaga
 email: careagc256@gmail.com
+domain: ccareaga.github.io
 url: "https://ccareaga.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 #baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: >- # this means to ignore newlines until the next keyword
