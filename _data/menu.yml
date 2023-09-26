@@ -20,7 +20,7 @@ entries:
   - title: research
     post_list:
       category: research
-      limit: 10
+      limit: 100
       show_more: true
       show_more_text: See more posts...
       show_more_url: archive.html

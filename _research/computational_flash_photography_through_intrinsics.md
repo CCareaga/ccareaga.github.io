@@ -3,7 +3,9 @@ layout: post
 title:  "Computational Flash Photography Through Intrinsics"
 date:   2023-06-11 11:42:58 -0700
 categories: research
-description: Flash is an essential tool as it often serves as the sole controllable light source in everyday photography. However, the use of flash is a binary decision at the time a photograph is captured with limited control over its characteristics such as strength or color.
+authors: Sepideh Sarajian Maralan, Chris Careaga, Yagiz Aksoy
+venue: CVPR 2023
+description: Flash photograph decomposition and generation formulated in the intrinsic image domain.
 img_path: /assets/intrinsicFlash.jpg
 img_text: representative image
 ---

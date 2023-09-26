@@ -35,8 +35,9 @@ p {
 .research-ele-container {
     display: grid;
     align-items: center;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 5fr;
     column-gap: 15px;
+    margin-top: 30px;
 }
 
 img {
