@@ -3,7 +3,7 @@ layout: post
 title:  "Computational Flash Photography Through Intrinsics"
 date:   2023-06-11 11:42:58 -0700
 categories: research
-authors: Sepideh Sarajian Maralan, Chris Careaga, Yagiz Aksoy
+authors: Sepideh Sarajian Maralan, <strong>Chris Careaga</strong>, Yağız Aksoy
 venue: CVPR 2023
 description: Flash photograph decomposition and generation formulated in the intrinsic image domain.
 img_path: /assets/intrinsicFlash.jpg
