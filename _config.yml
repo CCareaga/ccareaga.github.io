@@ -31,18 +31,16 @@ collections:
   news:
     output: true
     order:
-      - datamosh-news.md
       - site-created.md
   research:
     output: true
     order:
       - computational_flash_photography_through_intrinsics.md
-      - a_study_of_fewshot_audio_classification.md
-      - metric_based_fewshot_learning_for_video_action_recognition.md
+      - dynapix.md
 
 #permalink: /:slug.html
 
-#favicon: "" # name+extension of favicon (which must be put on the root folder)
+favicon: "favicon.ico" # name+extension of favicon (which must be put on the root folder)
 
 #theme: no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
 
