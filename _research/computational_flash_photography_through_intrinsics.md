@@ -2,6 +2,7 @@
 layout: post
 title:  "Computational Flash Photography Through Intrinsics"
 date:   2023-06-11 11:42:58 -0700
+order: 1
 categories: research
 project_page: http://yaksoy.github.io/intrinsicFlash/
 authors: Sepideh Sarajian Maralan, <strong>Chris Careaga</strong>, Yağız Aksoy
