@@ -3,7 +3,7 @@ layout: post
 title:  "DynaPix - Normal Map Pixelization for Dynamic Lighting"
 date:   2023-06-11 11:42:58 -0700
 categories: research
-order: 2
+order: 4
 project_page: http://yaksoy.github.io/dynapix/
 authors: Gerardo Gandeaga, Denys Iliash, <strong>Chris Careaga</strong>, Yağız Aksoy
 venue: <em>SIGGRAPH Posters 2022</em>

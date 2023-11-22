@@ -35,6 +35,7 @@ collections:
   research:
     output: true
     order:
+      - intrinsic.md
       - datamosh.md
       - computational_flash_photography_through_intrinsics.md
       - dynapix.md
