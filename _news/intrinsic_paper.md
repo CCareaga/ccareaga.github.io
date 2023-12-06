@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My paper on intrinsic decomposition was published in ACM TOG! (Oct 2023)"
+title:  "our paper on intrinsic decomposition was published in ACM TOG! (Oct 2023)"
 link: https://yaksoy.github.io/intrinsic/ 
 img_path: /assets/intrinsic.jpg
 img_text: representative image

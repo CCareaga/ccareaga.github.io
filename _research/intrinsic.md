@@ -2,7 +2,7 @@
 layout: post
 title:  "Intrinsic Image Decomposition via Ordinal Shading"
 date:   2023-11-21 09:19:00 -0700
-order: 1
+order: 2
 categories: research
 project_page: http://yaksoy.github.io/intrinsic/
 authors: <strong>Chris Careaga</strong> and Yağız Aksoy

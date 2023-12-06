@@ -14,7 +14,7 @@
   <ul>
     {%- for post in posts reversed limit: include.limit -%}
         <li>
-          <a href={{post.link}} >{{ post.title | downcase }}</a>
+          <a href={{post.link}} target="_blank">{{ post.title | downcase }}</a>
         </li>
     {%- endfor -%}
     {%- if include.show_more and limit_exceeded -%}
