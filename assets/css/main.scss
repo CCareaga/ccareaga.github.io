@@ -9,7 +9,19 @@ ul {
 }
 
 h1 {
-    margin: 0.4rem 0;
+    margin: 0.1rem 0;
+    margin-top:-20px;
+    font-size: 48px;
+}
+h2 {
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size: 32px;
+}
+h3 {
+    margin-top:5px;
+    margin-bottom:5px;
+    font-size: 24px;
 }
 p {
     margin: 0.4rem 0;
@@ -35,8 +47,9 @@ p {
 .research-ele-container {
     display: grid;
     align-items: center;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 5fr;
     column-gap: 15px;
+    margin-top: 30px;
 }
 
 img {
@@ -47,5 +60,10 @@ img {
 
 .research-post-image {
     float: left;
-    margin: 30px;
+    max-width: 20%;
+    margin-right: 20px;
+}
+
+.post-link {
+    font-size: 24px;
 }

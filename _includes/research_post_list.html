@@ -1,7 +1,7 @@
 {%-if include.category-%}
-  {%-assign posts = site.[include.category]-%}  
+  {%-assign posts = site.[include.category] | sort: "order"-%}  
 {%-else-%}
-  {%-assign posts = site.posts-%}
+  {%-assign posts = site.posts | sort: "order"-%}
 {%-endif-%}
 
 {%-if include.limit and posts.size > include.limit-%}
@@ -19,7 +19,9 @@
                     <img src="{{post.img_path}}" alt="{{post.img_text}}">
                 </div>
                 <div class="research-ele-text">
-                    <a href="{{ post.url | relative_url }}">{{ post.title | downcase }}</a>
+                    <a href="{{ post.project_page }}" target="_blank">{{ post.title }}</a>
+                    <p>{{post.authors}}</p>
+                    <p>{{post.venue}}</p>
                     <p>{{post.description}}</p>
                 </div>
             </div>

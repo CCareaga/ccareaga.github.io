@@ -7,7 +7,7 @@
         </div>
         <div class="aboutme-text">
           {%-for ele in item.entries-%}
-            {%-if forloop.index == 1-%}
+            {%-if forloop.index <= 2-%}
               <h1>{{ele.title}}</h1>
             {%-elsif ele.url%}
               <a class="sidebyside-text-ele" href="{{ ele.url }}">{{ ele.title }}</a>
