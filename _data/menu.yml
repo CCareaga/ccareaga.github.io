@@ -16,11 +16,12 @@ entries:
         url: https://www.linkedin.com/in/christian-careaga/ 
       - title: group
         url: http://yaksoy.github.io/group
+      - title: <strong> I'm currently looking for summer 2025 internship positions! </strong>
 
   - title: news
     post_list:
       category: news
-      limit: 5
+      limit: 10
       show_more: true
 
   - title: research
