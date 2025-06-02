@@ -1,7 +1,7 @@
 {%-if include.category-%}
-  {%-assign posts = site.[include.category] | sort: "order"-%}  
+  {%-assign posts = site.[include.category] | sort: "date" | reverse-%}  
 {%-else-%}
-  {%-assign posts = site.posts | sort: "order"-%}
+  {%-assign posts = site.posts | sort: "date" | reverse-%}
 {%-endif-%}
 
 {%-if include.limit and posts.size > include.limit-%}

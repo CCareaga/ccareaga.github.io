@@ -2,7 +2,6 @@
 layout: post
 title:  "Intrinsic Harmonization for Illumination-Aware Compositing"
 date:   2023-12-5 17:35:00 -0700
-order: 2
 categories: research
 project_page: http://yaksoy.github.io/intrinsicCompositing/
 authors: <strong>Chris Careaga</strong>, S. Mahdi H. Miangoleh, Yağız Aksoy
