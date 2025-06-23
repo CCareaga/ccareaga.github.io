@@ -23,6 +23,8 @@
       <li>
       {%- if item.url -%}
         <a href="{{ item.url }}">{{ item.title }}</a>
+      {%-elsif item.header%}
+        <h3 class="section_header">{{ item.header }}</h3>
       {%- else -%}
         {{ item.title }}
       {%- endif -%}
@@ -82,6 +84,8 @@
       <li>
       {%- if item.url -%}
         <a href="{{ item.url }}">{{ item.title }}</a>
+      {%-elsif item.header%}
+        <h3 class="section_header">{{ item.header }}</h3>
       {%- else -%}
         {{ item.title }}
       {%- endif -%}

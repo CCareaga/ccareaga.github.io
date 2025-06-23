@@ -68,6 +68,12 @@ img {
     font-size: 24px;
 }
 
+.section_header {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
 
 .large_screen {
   display: block;
@@ -100,11 +106,13 @@ img {
       display: flex;
       flex-direction: column; // Stack title, image, and text vertically
       align-items: center; // Center align items
+      margin-top: 0px;
+      margin-bottom: 20px;
       gap: 0.5rem;
       width: 100%;
 
       a {
-        text-align: left;
+        text-align: right;
       }
     }
 
