@@ -11,7 +11,7 @@
 {%-endif-%}
 
 {%- if posts.size > 0 -%}
-  <ul>
+  <ul class="large_screen">
     {%- for post in posts limit: include.limit -%}
         <li>
             <div class="research-ele-container">
@@ -23,6 +23,29 @@
                     <p>{{post.authors}}</p>
                     <p>{{post.venue}}</p>
                     <p>{{post.description}}</p>
+                </div>
+            </div>
+        </li>
+    {%- endfor -%}
+    {%- if include.show_more and limit_exceeded -%}
+      <li><a href="{{ include.show_more_url }}">{{ include.show_more_text | default: "Show more..." }}</a></li>
+    {%- endif -%}
+  </ul>
+
+  <ul class="small_screen">
+    {%- for post in posts limit: include.limit -%}
+        <li>
+            <div class="research-ele-container">
+                <a href="{{ post.project_page }}" target="_blank">{{ post.title }}</a>
+                <div class="research-ele-content">
+                    <div class="research-ele-image">
+                        <img src="{{post.img_path}}" alt="{{post.img_text}}">
+                    </div>
+                    <div class="research-ele-text">
+                        <p>{{post.authors}}</p>
+                        <p>{{post.venue}}</p>
+                        <p>{{post.description}}</p>
+                    </div>
                 </div>
             </div>
         </li>
