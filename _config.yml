@@ -30,15 +30,10 @@ description: >- # this means to ignore newlines until the next keyword
 collections:
   news:
     output: true
-    order:
-      - site-created.md
+
   research:
     output: true
-    order:
-      - intrinsic.md
-      - datamosh.md
-      - computational_flash_photography_through_intrinsics.md
-      - dynapix.md
+
 
 #permalink: /:slug.html
 

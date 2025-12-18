@@ -8,6 +8,8 @@ entries:
       - title: careaga
       - title: I'm a PhD student in the Computational Photography Lab at Simon Fraser University. 
       - title: My research focuses on analysing and estimating illumination in images to enable complex photo editing applications.
+      # how can I add a background to this or a text box to make it stand out more?
+      - title: <span style="color:red; font-weight:bold;">I’ll be graduating this spring and I'm actively looking for my next position. Feel free to reach out if you think there might be a good fit! </span>
       - title: scholar
         url: https://scholar.google.ca/citations?user=-98CGCIAAAAJ
       - title: github
